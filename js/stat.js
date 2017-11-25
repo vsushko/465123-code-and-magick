@@ -23,7 +23,7 @@ window.renderStatistics = function (ctx, names, times) {
   ctx.font = '14px PT Mono';
 
   // не даём применять тень ко всему что есть в прямоугольнике
-  ctx.shadowColor = "transparent";
+  ctx.shadowColor = 'transparent';
 
   var headerText = 'Ура вы победили!\nСписок результатов:';
   var array = headerText.split('\n');
@@ -77,7 +77,7 @@ var getMaxIndex = function (times) {
 }
 
 /**
- * Возвращает синий цвет со случайной прозрачностью или черный если имя "Вы"
+ * Возвращает синий цвет со случайной прозрачностью или черный если имя 'Вы'
  * @param {String} массив имен
  * @return {String} цвет
  */
